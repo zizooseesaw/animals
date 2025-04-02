@@ -19,7 +19,7 @@ const svgMap = {
     horse
 }
 
-function AnimalsShow{(type)}{
+function AnimalsShow({type}){
     const [clicks, setClicks] = useState(0)
 
     const handleClick = () => {
